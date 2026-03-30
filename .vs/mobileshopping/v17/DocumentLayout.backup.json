@@ -1,0 +1,382 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\thuctap\\lab\\mobileshopping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\20260330085422_shshsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mobileshopping\\Migrations\\20260330085422_shshsh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\20260330085205_sssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mobileshopping\\Migrations\\20260330085205_sssss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\migrations\\20260330083402_initialcreatenewdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\migrations\\20260330083402_initialcreatenewdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\mobileshopping.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\mobileshopping.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|d:\\thuctap\\lab\\mobileshopping\\mobileshopping\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C6C973D-53C3-4F20-ACE6-1D2AEA4C4A3D}|mobileshopping\\mobileshopping.csproj|solutionrelative:mobileshopping\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260330085422_shshsh.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\20260330085422_shshsh.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Migrations\\20260330085422_shshsh.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\20260330085422_shshsh.cs",
+              "RelativeToolTip": "mobileshopping\\Migrations\\20260330085422_shshsh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:54:22.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260330085205_sssss.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\20260330085205_sssss.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Migrations\\20260330085205_sssss.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\20260330085205_sssss.cs",
+              "RelativeToolTip": "mobileshopping\\Migrations\\20260330085205_sssss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:52:05.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "mobileshopping\\appsettings.Development.json",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\appsettings.Development.json",
+              "RelativeToolTip": "mobileshopping\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-30T08:41:17.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "mobileshopping\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:35:18.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260330083402_InitialCreateNewDB.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\20260330083402_InitialCreateNewDB.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Migrations\\20260330083402_InitialCreateNewDB.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Migrations\\20260330083402_InitialCreateNewDB.cs",
+              "RelativeToolTip": "mobileshopping\\Migrations\\20260330083402_InitialCreateNewDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T08:34:02.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "mobileshopping.http",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\mobileshopping.http",
+              "RelativeDocumentMoniker": "mobileshopping\\mobileshopping.http",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\mobileshopping.http",
+              "RelativeToolTip": "mobileshopping\\mobileshopping.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-30T08:25:54.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Controllers\\CartsController.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "mobileshopping\\Controllers\\CartsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:06:43.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "mobileshopping\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwC4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:03:03.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "mobileshopping\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T09:01:25.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "mobileshopping\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwCwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:22:11.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Program.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Program.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Program.cs",
+              "RelativeToolTip": "mobileshopping\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:14:58.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\appsettings.json",
+              "RelativeDocumentMoniker": "mobileshopping\\appsettings.json",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\appsettings.json",
+              "RelativeToolTip": "mobileshopping\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-24T08:09:33.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "mobileshopping\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:08:54.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Models\\CartItem.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\CartItem.cs",
+              "RelativeToolTip": "mobileshopping\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:08:22.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Models\\Cart.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\Cart.cs",
+              "RelativeToolTip": "mobileshopping\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:07:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Models\\Category.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\Category.cs",
+              "RelativeToolTip": "mobileshopping\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:07:23.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Models\\Product.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\Product.cs",
+              "RelativeToolTip": "mobileshopping\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:05:41.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\User.cs",
+              "RelativeDocumentMoniker": "mobileshopping\\Models\\User.cs",
+              "ToolTip": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\Models\\User.cs",
+              "RelativeToolTip": "mobileshopping\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:05:12.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
