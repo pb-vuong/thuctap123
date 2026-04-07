@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\mobileshopping.csproj": {}
+    "D:\\thuctap\\thuctap123\\mobileshopping\\mobileshopping.csproj": {}
   },
   "projects": {
-    "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\mobileshopping.csproj": {
+    "D:\\thuctap\\thuctap123\\mobileshopping\\mobileshopping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\mobileshopping.csproj",
+        "projectUniqueName": "D:\\thuctap\\thuctap123\\mobileshopping\\mobileshopping.csproj",
         "projectName": "mobileshopping",
-        "projectPath": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\mobileshopping.csproj",
+        "projectPath": "D:\\thuctap\\thuctap123\\mobileshopping\\mobileshopping.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\thuctap\\lab\\mobileshopping\\mobileshopping\\obj\\",
+        "outputPath": "D:\\thuctap\\thuctap123\\mobileshopping\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

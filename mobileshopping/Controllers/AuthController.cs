@@ -1,44 +1,111 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using mobileshopping.Models; 
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using mobileshopping.Models;
+using System.Threading.Tasks;
 
-[Route("api/[controller]")]
-[ApiController]
-public class AuthController : ControllerBase
+namespace mobileshopping.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public AuthController(AppDbContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AuthController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<User> _userManager;
 
-    // API Đăng nhập
-    [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody] LoginRequest request)
-    {
-        // Tìm user có Email và Password khớp với Database
-        var user = await _context.Users
-            .FirstOrDefaultAsync(u => u.Email == request.Email && u.Password == request.Password);
-
-        if (user == null)
+        public AuthController(SignInManager<User> signInManager, UserManager<User> userManager)
         {
-            return Unauthorized(new { message = "Email hoặc mật khẩu không chính xác!" });
+            _signInManager = signInManager;
+            _userManager = userManager;
         }
 
-        // Trả về thông tin user để App lưu lại phiên đăng nhập
-        return Ok(new
+        // 1. API ĐĂNG KÝ (Register)
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterRequest request)
         {
-            success = true,
-            message = "Đăng nhập thành công!",
-            data = user
-        });
-    }
-}
+            // Kiểm tra xem Email đã tồn tại chưa
+            var userExists = await _userManager.FindByEmailAsync(request.Email);
+            if (userExists != null)
+            {
+                return BadRequest(new { message = "Email này đã được sử dụng!" });
+            }
 
-// Lớp phụ trợ để nhận dữ liệu từ giao diện
-public class LoginRequest
-{
-    public string Email { get; set; }
-    public string Password { get; set; }
+            // Tạo đối tượng User mới
+            var user = new User
+            {
+                UserName = request.Email,
+                Email = request.Email,
+                FullName = request.FullName,
+                // Gán giá trị rỗng thay vì để NULL
+                AddressCompany = "",
+                AddressHome = "",
+                Gender = "Other",
+                AvatarURL = "default.png",
+                DateOfBirth = DateTime.Now
+            };
+            // UserManager sẽ tự động mã hóa mật khẩu và lưu vào Database
+            var result = await _userManager.CreateAsync(user, request.Password);
+
+            if (result.Succeeded)
+            {
+                return Ok(new
+                {
+                    success = true,
+                    message = "Đăng ký tài khoản thành công!",
+                    data = new { user.Id, user.Email, user.FullName }
+                });
+            }
+
+            // Trả về danh sách lỗi nếu không thỏa mãn chính sách bảo mật (ví dụ mật khẩu quá ngắn)
+            return BadRequest(new { success = false, errors = result.Errors });
+        }
+
+        // 2. API ĐĂNG NHẬP (Login)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {
+            // Tìm user theo Email trong Database
+            var user = await _userManager.FindByEmailAsync(request.Email);
+
+            if (user == null)
+            {
+                return Unauthorized(new { message = "Email không tồn tại trong hệ thống!" });
+            }
+
+            // Xác thực mật khẩu đã mã hóa bằng SignInManager
+            var result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
+
+            if (result.Succeeded)
+            {
+                // Trả về thông tin user để App lưu lại phiên đăng nhập
+                return Ok(new
+                {
+                    success = true,
+                    message = "Đăng nhập thành công!",
+                    data = new
+                    {
+                        user.Id,
+                        user.Email,
+                        user.FullName,
+                        user.AvatarURL
+                    }
+                });
+            }
+
+            return Unauthorized(new { message = "Mật khẩu không chính xác!" });
+        }
+    }
+
+    // Các lớp Model bổ trợ cho Request
+    public class LoginRequest
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
+
+    public class RegisterRequest
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string FullName { get; set; }
+    }
 }

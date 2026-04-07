@@ -1,15 +1,16 @@
-﻿namespace mobileshopping.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace mobileshopping.Models
 {
-    public class User
+    // Kế thừa IdentityUser để có sẵn các trường Id, Email, PasswordHash...
+    public class User : IdentityUser<int>
     {
-        public int UserID { get; set; }
         public string FullName { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string Gender { get; set; }
         public string AddressCompany { get; set; }
         public string AddressHome { get; set; }
         public string AvatarURL { get; set; }
+        public int UserID { get; internal set; }
     }
 }

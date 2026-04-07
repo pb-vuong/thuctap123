@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("mobileshopping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+375a3e43dc3f61373384124635232536c21bb767")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c7b497e52a152cd5fc7024d6722a93a05f66ed9")]
 [assembly: System.Reflection.AssemblyProductAttribute("mobileshopping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mobileshopping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
