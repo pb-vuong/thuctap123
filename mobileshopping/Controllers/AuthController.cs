@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using mobileshopping.Models;
 using System.Threading.Tasks;
@@ -92,6 +93,20 @@ namespace mobileshopping.Controllers
             }
 
             return Unauthorized(new { message = "Mật khẩu không chính xác!" });
+        }
+        // 3. API ĐĂNG XUẤT (Logout)
+        [Authorize]
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            // Xóa cookie xác thực trên server (nếu có)
+            await _signInManager.SignOutAsync();
+
+            return Ok(new
+            {
+                success = true,
+                message = "Đã đăng xuất thành công!"
+            });
         }
     }
 
