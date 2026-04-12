@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "mobileshopping",
-    "version": "1.0"
+    "title": "Mobile Shopping API",
+    "version": "v1"
   },
   "paths": {
     "/api/Auth/register": {
@@ -902,6 +902,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Nhập Token theo định dạng: Bearer {your_token}",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }
